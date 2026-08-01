@@ -137,3 +137,36 @@ body {
     gap: 8px;
   }
 }
+
+/* Pasatiempos */
+.hobbies-section {
+  background-color: var(--color-claro);
+}
+
+.hobby-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hobby-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hobby-card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.hobby-card .card-title {
+  color: var(--color-primario);
+  font-weight: 600;
+}
+
+.hobby-card .card-text {
+  color: #555;
+  font-size: 0.92rem;
+}

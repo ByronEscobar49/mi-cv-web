@@ -102,3 +102,38 @@ body {
     font-size: 1rem;
   }
 }
+
+/* Habilidades */
+.skills-section {
+  background-color: white;
+}
+
+.skills-list .list-group-item {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  padding: 16px 10px;
+  font-size: 1.05rem;
+  color: var(--color-primario);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.skills-list .list-group-item:hover {
+  background-color: var(--color-claro);
+  transform: translateX(6px);
+}
+
+.skill-badge {
+  background-color: var(--color-primario);
+  color: white;
+  font-weight: 500;
+  padding: 8px 14px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 576px) {
+  .skills-list .list-group-item {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 8px;
+  }
+}

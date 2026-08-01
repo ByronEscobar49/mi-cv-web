@@ -36,6 +36,11 @@ Desarrollé el sitio siguiendo el orden de las secciones pedidas, haciendo un co
 
 ## Capturas de pantalla
 
-- 320px: (img/captura-320.png)
-- 768px: (img/captura-768.png)
-- 1280px: (img/captura-1280.png)
+### 320px
+![Vista en 320px](img/captura-320.png)
+
+### 768px
+![Vista en 768px](img/captura-768.png)
+
+### 1280px
+![Vista en 1280px](img/captura-1280.png)

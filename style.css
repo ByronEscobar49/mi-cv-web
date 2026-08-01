@@ -170,3 +170,29 @@ body {
   color: #555;
   font-size: 0.92rem;
 }
+
+/* Visión Profesional */
+.vision-section {
+  background: linear-gradient(135deg, #3d405b, var(--color-primario));
+  color: white;
+  padding: 80px 0;
+}
+
+.vision-section .section-title {
+  color: white;
+}
+
+.vision-section .section-title::after {
+  background-color: var(--color-acento);
+}
+
+.vision-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+}
+
+.vision-text strong {
+  color: #ffffff;
+  border-bottom: 2px solid var(--color-acento);
+}
